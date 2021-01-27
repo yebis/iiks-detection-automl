@@ -17,5 +17,5 @@ sudo docker run -t --rm -p 8502:8501 -v "$MODEL_D5:/models/efficientdet" -e MODE
 
 # 追加したスクリプト #
 
-efficientdet/detection.sh : 推論APIサーバーにリクエストを投げて、結果を YOLO の出力に合わせてやるためのスクリプト。
+efficientdet/pred.py : 推論APIサーバーにリクエストを投げて、結果を YOLO の出力に合わせてやるためのスクリプト。
 
